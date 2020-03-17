@@ -149,7 +149,7 @@
 }
 
 .linktext{
-  color: #223555;
+  color: #223555 !important;
 }
 
 .btn-primary {
@@ -159,6 +159,15 @@
 .btn-primary:hover {
   border-color:  #849C52;
   background-color: Transparent;
+}
+
+.hr {
+  background-color: red !important;
+  color: red;
+}
+
+.my-4 {
+  color: red;
 }
 
 .btn-primary:focus {
@@ -298,6 +307,13 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
+.text-uppercase {
+  color: #223555 !important;
+}
+
+.fa {
+  color: #223555 !important;
+}
 footer {
   padding: 5rem 0;
 }
