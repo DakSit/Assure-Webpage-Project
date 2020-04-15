@@ -87,7 +87,9 @@
 .masthead {
   position: relative;
   /*min-height: 70rem;*/
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.1) 100%, #161616 100%), url("../img/WorkerwithHelmetAssureLogo.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.1) 100%, #161616 100%), url("../img/Masthead.jpg");
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
@@ -314,7 +316,6 @@ a:focus, a:hover {
 
 .img-bottomlogo {
   margin-bottom: 5%;
-  height: 30%;
 }
 
 .img-masthead {
