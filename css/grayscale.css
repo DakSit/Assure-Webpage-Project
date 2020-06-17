@@ -335,7 +335,7 @@ footer {
   padding: 5rem 0;
 }
 
-@media only screen and (max-width: 1200px)
+@media only (max-width: 1200px)
 {
   .img-left
   {
@@ -345,6 +345,9 @@ footer {
   }
 }
 
-.img-left{
-
+@media only (max-width: 540px)
+{
+  #header-img{
+    width:99% !important;
+  }
 }
