@@ -347,7 +347,8 @@ footer {
 
 @media only (max-width: 540px)
 {
-  #header-img{
+  #header-img
+  {
     width:99% !important;
   }
 }
